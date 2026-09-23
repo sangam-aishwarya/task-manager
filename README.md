@@ -1,16 +1,90 @@
-# React + Vite
+# Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive task management web application built with **React** and **Bootstrap 5**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new tasks
+* Set task priority: Low, Medium, or High
+* Mark tasks as completed or undo completion
+* Edit task title and priority
+* Delete tasks
+* Search tasks
+* Filter tasks by status
+* Filter tasks by priority
+* Save tasks using browser local storage
+* Responsive design for desktop and mobile screens
+* Form validation
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* Bootstrap 5
+* HTML5
+* CSS3
+* Vite
+* Git
+* GitHub
 
-## Expanding the ESLint configuration
+## React Concepts Practised
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Functional components
+* JSX
+* Props
+* `useState`
+* `useEffect`
+* Controlled inputs
+* Event handling
+* Parent-child communication
+* Lifting state up
+* Conditional rendering
+* `map()`
+* `filter()`
+* State updates using the spread operator
+* Component composition
+
+## Project Structure
+
+```text
+src/
+├── App.jsx
+├── Header.jsx
+├── TaskForm.jsx
+├── TaskItem.jsx
+├── TaskList.jsx
+├── main.jsx
+└── index.css
+```
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sangam-aishwarya/task-manager.git
+```
+
+Navigate to the project:
+
+```bash
+cd task-manager
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## Purpose
+
+This project was built to practise React fundamentals and modern frontend development, including state management, reusable components, responsive UI, and browser storage.
