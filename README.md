@@ -2,6 +2,10 @@
 
 A responsive task management web application built with **React** and **Bootstrap 5**.
 
+## Preview
+
+![Task Manager Screenshot](./screenshots/task-manager.png)
+
 ## Features
 
 * Add new tasks
